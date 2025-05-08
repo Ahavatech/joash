@@ -12,16 +12,14 @@ export default defineConfig({
       host: '0.0.0.0'
     }
   },
-  esbuild: {
-    loader: 'jsx',
-    include: /\.[jt]sx?$/,
-    exclude: [],
-  },
   optimizeDeps: {
     esbuildOptions: {
       loader: {
         '.js': 'jsx'
       }
     }
+  },
+  server: {
+    allowedHosts: ['.replit.dev', '.kirk.replit.dev']
   }
 });
