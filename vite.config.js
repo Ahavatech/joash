@@ -10,7 +10,8 @@ export default defineConfig({
     hmr: {
       clientPort: 443,
       host: '0.0.0.0'
-    }
+    },
+    allowedHosts: ['.replit.dev', '.kirk.replit.dev']
   },
   optimizeDeps: {
     esbuildOptions: {
@@ -18,8 +19,5 @@ export default defineConfig({
         '.js': 'jsx'
       }
     }
-  },
-  server: {
-    allowedHosts: ['.replit.dev', '.kirk.replit.dev']
   }
 });
