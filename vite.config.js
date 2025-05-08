@@ -16,5 +16,8 @@ export default defineConfig({
     loader: 'jsx',
     include: /\.[jt]sx?$/,
     exclude: [],
+  },
+  server: {
+    allowedHosts: ['.replit.dev', '.kirk.replit.dev']
   }
 });
