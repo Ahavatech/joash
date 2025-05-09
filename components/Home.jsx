@@ -27,15 +27,15 @@ function Home() {
         <div className="tools-grid">
           <div className="tool-card">
             <FontAwesomeIcon icon={faFigma} className="figma-icon" />
-            <span>FIGMA</span>
+            <span>Figma</span>
           </div>
           <div className="tool-card">
-            <FontAwesomeIcon icon={faCss3} className="css-icon" />
-            <span>CSS</span>
+            <img src="/bubble-io-icon.png" alt="Bubble.io" className="bubble-icon" />
+            <span>Bubble.io</span>
           </div>
           <div className="tool-card">
-            <FontAwesomeIcon icon={faJs} className="js-icon" />
-            <span>JS</span>
+            <img src="/openai-icon.png" alt="OpenAI" className="openai-icon" />
+            <span>OpenAI</span>
           </div>
         </div>
       </section>
